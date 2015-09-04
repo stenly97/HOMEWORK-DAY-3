@@ -13,8 +13,7 @@ public class Baby extends Human {
 	}
 
 	@Override
-	String getName() {
-		
+	String getName() {		
 		return name;
 	}
 
@@ -25,17 +24,17 @@ public class Baby extends Human {
 
 	@Override
 	void setAge(int x) {
-		age=x;
+		age = x;
 	}
 
 	@Override
 	void setName() {
-		name=sc.nextLine();
+		name = sc.nextLine();
 	}
 
 	@Override
 	void setLanguageSpoken() {
-		languageSpoken=null;
+		languageSpoken = null;
 	}
 	
 }
