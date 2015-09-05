@@ -11,7 +11,7 @@ public class Mahala {
 		int age;
 		Human[] ppl;
 		ppl=new Human[10];
-		int averageAge=0;
+		double averageAge=0;
 		for(int i=0;i<occupants;i++)
 		{
 			System.out.print("enter age: ");
