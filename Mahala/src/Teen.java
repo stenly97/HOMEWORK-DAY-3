@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Teen extends Human{
+	
 	Scanner sc = new Scanner(System.in);
 	int age;
 	String languageSpoken;
@@ -12,8 +13,7 @@ public class Teen extends Human{
 	}
 
 	@Override
-	String getName() {
-		
+	String getName() {		
 		return name;
 	}
 
@@ -24,17 +24,16 @@ public class Teen extends Human{
 
 	@Override
 	void setAge(int x) {
-		age=x;
+		age = x;
 	}
 
 	@Override
 	void setName() {
-		name=sc.nextLine();
+		name = sc.nextLine();
 	}
 
 	@Override
 	void setLanguageSpoken() {
-		languageSpoken=sc.nextLine();
-	}
-	
+		languageSpoken = sc.nextLine();
+	}	
 }
