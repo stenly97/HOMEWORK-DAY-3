@@ -11,9 +11,15 @@ public class Mahala {
 		
 		int age;
 		Human[] ppl;
+<<<<<<< HEAD
+		ppl=new Human[10];
+		double averageAge=0;
+		for(int i=0;i<occupants;i++)
+=======
 		ppl = new Human[10];
 		int averageAge = 0;
 		for(int i = 0; i < occupants; i++)
+>>>>>>> master
 		{
 			System.out.print("enter age: ");
 			age = sc.nextInt();
